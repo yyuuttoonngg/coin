@@ -40,7 +40,7 @@ function loopThroughSplittedText(results) {
 function displayValue(arr, i){  
     if(i<arr.length){
         setTimeout(function(){
-            document.getElementById('result').innerHTML += ' <img src="' + arr[i] + '.jpeg">';
+            document.getElementById('result').innerHTML += ' <img src="' + arr[i] + '.jpg">';
             console.log(arr[i])
             displayValue(arr,i+1);
         },100)
